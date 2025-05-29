@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+	<script src="main.js" defer></script>
+    <title>QuiroStore</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <div class="logo-text">QuiroStore</div>
+            <ul>
+                <li><a href="#hero-sections">Inicio</a></li>
+                <li><a href="#promo-sec">Ofertas</a></li>
+                <li><a href="#games-sec">Juegos</a></li>
+                <li><a href="#tarjetas-sec">Vender</a></li>
+            </ul>
+        </nav>
+        <section class="hero-section fade-on-scroll" id="hero-sections">
+    <div class="contenedor-encabezado">
+    <div class="texto-encabezado">
+        <h1 class="typewriter">QuiroStore</h1>
+        <a href="#" class="btn-border">Compra Aquí</a>
+    </div>
+    <video autoplay loop muted>
+        <source src="4842506-uhd_4096_2160_25fps.mp4" type="video/mp4">
+    </video>
+    </div>
+</section>
+    </div>
+    <section class="promo-section fade-on-scroll" id="promo-sec">
+        <div class="promo-content">
+        <h2>🔥 Ofertas Especiales para Gamers 🔥</h2>
+        <p>
+            Sube de nivel sin pagar de más. Oro, membresías y recargas para tus juegos favoritos al mejor precio.
+        </p>
+        <a href="#tienda" class="promo-btn">Ver Ofertas</a>
+        </div>
+    </section>
+    <section class="games-section fade-on-scroll" id="games-sec">
+        <div class="container">
+        <h2 class="section-title">Juegos Disponibles</h2>
+        <div class="games-grid">
+            <!-- Card 1 -->
+            <div class="game-card">
+            <img src="wows.webp" alt="World of Warcraft">
+            <h3>World of Warcraft</h3>
+            <p>Compra oro y membresías al mejor precio.</p>
+            <a href="#" class="btn">Ver más</a>
+            </div>
+            <!-- Card 2 -->
+            <div class="game-card">
+            <img src="genshin.webp" alt="Genshin Impact">
+            <h3>Genshin Impact</h3>
+            <p>Recarga cristales y paquetes mensuales.</p>
+            <a href="#" class="btn">Ver más</a>
+            </div>
+            <!-- Más cards... -->
+            <div class="game-card">
+                <img src="runescape.webp" alt="Runescape">
+                <h3>Runescape</h3>
+                <p>Compra oro y membresías al mejor precio.</p>
+                <a href="#" class="btn">Ver más</a>
+                </div>
+                <div class="game-card">
+                    <img src="albion.jpg" alt="Albion Online">
+                    <h3>Albion Online</h3>
+                    <p>Compra oro y membresías al mejor precio.</p>
+                    <a href="#" class="btn">Ver más</a>
+                    </div>
+        </div>
+        </div>
+    </section>
+    <section class="fortalezas-section fade-on-scroll">
+        <div class="fortalezas-header">
+        <h2>¿Quiénes somos y por qué deberías trabajar con nosotros?</h2>
+        <p>
+            Tenemos más de 3 años de experiencia realizando compra y venta de servicios en diferentes juegos y contamos con más de 1.000 feedbacks por parte de nuestros clientes.
+        </p>
+        </div>
+    
+        <div class="fortalezas-grid fade-on-scroll">
+        <div class="fortaleza-card">
+            <img src="seguridad.png" alt="Seguridad">
+            <h3>Seguridad</h3>
+            <p>Transparencia en todas nuestras operaciones, brindando comprobantes de las mismas.</p>
+        </div>
+    
+        <div class="fortaleza-card">
+            <img src="Tasas.png" alt="Tasas">
+            <h3>Tasas</h3>
+            <p>Precios competitivos en todas nuestras ofertas y servicios.</p>
+        </div>
+    
+        <div class="fortaleza-card">
+            <img src="Rapidez.png" alt="Rapidez">
+            <h3>Rapidez</h3>
+            <p>Pagos realizados en el menor tiempo posible, dado que valoramos el tiempo de nuestros clientes.</p>
+        </div>
+    
+        <div class="fortaleza-card">
+            <img src="confianza.png" alt="Confianza">
+            <h3>Confianza</h3>
+            <p>Cientos de comentarios positivos de nuestros clientes nos respaldan.</p>
+        </div>
+        </div>
+    </section>
+    <section class="card-section fade-on-scroll" id="tarjetas-sec">
+    <div class="card-container">
+    <div class="card-image">
+        <img src="tarjetasderegalo.jpg" alt="Tarjeta de juego">
+    </div>
+    <div class="card-content">
+        <h2>¡Empieza a comprar tarjetas de saldo para tus juegos ahora!</h2>
+        <p>Ofertas disponibles en QuiroStore.</p>
+        <a href="#" class="btn-card">Comprar Ahora</a>
+    </div>
+</div>
+</section>
+<section id="juegos-section" class="fade">
+    <div class="container">
+    <h2>🕹️ Selecciona un Juego</h2>
+    <p>Elige un juego y luego indica si deseas comprar o vender.</p>
+
+    <div class="game-selector">
+    <div class="game-option" data-juego="wow">
+    <img src="wows.webp" alt="World of Warcraft" />
+    <h3>World of Warcraft</h3>
+</div>
+    <div class="game-option" data-juego="genshin">
+    <img src="genshin.webp" alt="Genshin" />
+    <h3>Genshin Impact</h3>
+</div>
+    <div class="game-option" data-juego="Albion">
+    <img src="albion.jpg" alt="AlbionOnline" />
+    <h3>Albion Online</h3>
+</div>
+    <div class="game-option" data-juego="runescape">
+    <img src="Runescape.webp" alt="RuneScape" />
+    <h3>RuneScape</h3>
+</div>
+</div>
+
+    <div id="accion-selector" class="hidden">
+    <h3 id="juego-seleccionado">Juego seleccionado: </h3>
+    <p>¿Qué deseas hacer?</p>
+        <a href="javascript:void(0)" id="btn-comprar" class="accion-btn">Comprar</a>
+        <a href="javascript:void(0)" id="btn-vender" class="accion-btn">Vender</a>
+
+    </div>
+
+    <form id="formulario-accion" class="hidden">
+    <h4 id="tipo-accion"></h4>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+    <label for="detalle">Tipo (oro, membresía, etc):</label>
+    <input type="text" id="detalle" name="detalle" placeholder="Ej: oro, membresía">
+
+    <a href="#" id="btn-enviar">Enviar</a>
+    </form>
+
+    <a href="#" id="btn-volver">Volver al inicio</a>
+</div>
+</section>
+
+    <footer class="main-footer">
+    <div class="footer-container">
+    <div class="footer-brand">
+        <h2>QuiroStore</h2>
+        <p>Tu tienda confiable para comprar oro, tarjetas y membresías.</p>
+    </div>
+
+    <div class="footer-links">
+        <h3>Enlaces</h3>
+        <ul>
+            <li><a href="#tienda">Tienda</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-social">
+        <h3>Redes Sociales</h3>
+        <div class="social-icons">
+        <a href="#"><img src="facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="twitter.png" alt="Twitter" /></a>
+    </div>
+    </div>
+</div>
+
+    <div class="footer-bottom">
+    <p>&copy; 2025 QuiroStore. Todos los derechos reservados.</p>
+</div>
+
+</footer>
+
+</body>
+</html>
